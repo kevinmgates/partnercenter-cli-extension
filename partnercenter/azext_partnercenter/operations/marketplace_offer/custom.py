@@ -28,7 +28,7 @@ def delete_offer(cmd, client, product_id):
     if not results:
         return "Deleted offer: " + product_id
     else:
-        raise CLIError("Failed to deleted offer: " + product_id)
+        raise CLIError("Failed to delete offer: " + product_id)
 
 def get_offer(cmd):
     raise CLIError('TODO: Implement `partnercenter marketplace offer show`')
